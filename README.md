@@ -40,7 +40,7 @@ enableAutoWrapObserver({
 直接使用 {count}，不要使用 {count.value}，以达到最高性能。
 
 ```tsx
-import { signal, useSignal } from "@dpdfe/mobx-signal";
+import { useSignal } from "@dpdfe/mobx-signal";
 
 export default function App() {
   const count = useSignal(0);
@@ -60,7 +60,7 @@ export default function App() {
 可以看到在点击按钮时，父子组件均不会重新渲染(父子里面的console.log在点击按钮时，均不会打印)，仅 {store.username} 部分会重新渲染。
 
 ```tsx
-import { signal, useSignal } from "@dpdfe/mobx-signal";
+import { signal } from "@dpdfe/mobx-signal";
 
 function Parent() {
   const store = useLocalObservable(() => ({
