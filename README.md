@@ -1,5 +1,9 @@
 # mobx-signal
 
+```
+npm install @dpdfe/mobx-signal
+```
+
 本库有两个独立的功能：
 
 ## 自动包裹 observer()

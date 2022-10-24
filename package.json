@@ -1,8 +1,11 @@
 {
     "name": "@dpdfe/mobx-signal",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "types": "dist/signal.d.ts",
+    "repository": {
+        "url": "https://github.com/DPDFE/mobx-signal"
+    },
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
